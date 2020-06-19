@@ -42,6 +42,7 @@ function draw(){
     background(backgroundImg);
     textSize(20)
      text("Abhay's Game",200,200);
+     text("Bird name: Red",30,40)
 
     Engine.update(engine);
     console.log(box2.body.position.x);
