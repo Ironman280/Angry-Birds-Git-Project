@@ -40,6 +40,9 @@ function setup(){
 
 function draw(){
     background(backgroundImg);
+    textSize(20)
+     text("Abhay's Game",200,200);
+
     Engine.update(engine);
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
